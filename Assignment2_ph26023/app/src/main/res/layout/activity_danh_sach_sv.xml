@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FF5722"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="Danh Sách Sinh Vien"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lvSv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnUpdateSv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="updateSvOnclick"
+        android:layout_margin="5dp"
+        android:backgroundTint="#FF5722"
+        android:text="Update" />
+</LinearLayout>

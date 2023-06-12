@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ tên" />
+
+    <EditText
+        android:id="@+id/etTenSv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/etSdtSv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số dt" />
+
+    <EditText
+        android:id="@+id/etSdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Spinner
+        android:id="@+id/spinnerSv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnThemSv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="themSvOnclick"
+        android:text="Thêm" />
+
+    <ListView
+        android:id="@+id/lvSv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

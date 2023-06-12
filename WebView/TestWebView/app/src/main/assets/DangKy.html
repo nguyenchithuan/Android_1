@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="web">
+        <header></header>
+        <nav>
+            <ul class="menu-ngang">
+                <li><a href="TrangChu.html">Trang chủ</a></li>
+                <li><a href="GioiThieu.html">Giới thiệu</a>
+                    <ul class="menu">
+                        <li><a href="#">Thông điệp trường</a></li>
+                        <li><a href="#">Lịch sử phát triển</a></li>
+                        <li><a href="#">Sứ mệnh và tầm nhìn</a></li>
+                        <li><a href="#">Thành tựu</a></li>
+                        <li><a href="#">Thông tin giáo viên</a></li>
+                    </ul>
+                </li>
+                <li><a href="DangKy.html">Đăng ký</a></li>
+                <li><a href="LienHe.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <div class="article">
+            <div class="khung">
+
+                <h1>Đăng ký</h1>
+                <form>
+                    <div class="vung">
+                        <label for="hoten" class="a">Họ và tên</label> <br>
+                        <input type="text" id="hoten" class="dk" required>
+                    </div>
+                    <div class="vung">
+                        <label for="email" class="a">Email</label> <br>
+                        <input type="email" id="email" class="dk" required>
+                    </div>
+                    <div class="vung">
+                        <label for="diachi" class="a">Địa chỉ</label> <br>
+                        <input type="text" id="diachi" class="dk" required>
+                    </div>
+                    <div class="vung">
+                        <fieldset class="dk dk2">
+                            <legend class="a">Giới tính</legend>
+                            <label><input type="radio" name="gioiTinh" checked>Nam</label>
+                            <label><input type="radio" name="gioiTinh" checked>Nữ</label>
+                        </fieldset>
+                    </div>
+                    <div class="vung">
+                        <fieldset class="dk dk2">
+                            <legend align="left" class="a">Sở thích</legend>
+                            <label><input type="checkbox" name="soThich">Âm nhạc</label>
+                            <label><input type="checkbox" name="soThich">Ẩm thực</label>
+                            <label><input type="checkbox" name="soThich">Bóng đá</label>
+                            <label><input type="checkbox" name="soThich">Game</label>
+                        </fieldset>
+                    </div>
+                    <div class="vung">
+                        <label for="quoctinh" class="a">QUỐC TỊCH</label> <br>
+                        <select id="quoctinh" class="dk" required>
+                            <option value="">Chọn quốc tịch</option>
+                            <option value="VietNam">Việt Nam</option>
+                            <option value="NhatBan">Nhật Bản</option>
+                            <option value="HanQuoc">Hàn Quốc</option>
+                            <option value="My">Mỹ</option>
+                            <option value="Anh">Anh</option>
+                        </select>
+                    </div>
+                    <div class="vung">
+                        <label for="ghichu" class="a">Ghi chú</label> <br>
+                        <textarea id="ghichu" cols="38" rows="7" placeholder="Chú thích ở đây!"></textarea>
+                    </div>
+                    <div class="vung">
+                        <button type="submit" class="nut">Đăng ký</button>
+                        <button type="reset" class="nut">Hủy đăng ký</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <aside>
+            <img src="img/gioithieu1.png" width="100%">
+            <div class="gioiThieu">
+                <div class="gioiThieu">
+                    <h3>Video giới thiệu trường</h3>
+                    <video src="img/video.mp4" controls width="100%" poster="img/TrangChu.jpg" loop autoplay></video>
+                </div>
+            </div>
+        </aside>
+        <footer>
+            <span class="floot-left">
+                <ul>
+                    <li><strong>TRƯỜNG THPT CHUYÊN HÀ NỘI - AMSTERDAM</strong></li>
+                    <li>Địa chỉ: Hoàng Minh Giám, Cầu Giấy, Hà Nội</li>
+                    <li>Email: c23hanoi-ams@hanoiedu.vn</li>
+                </ul>
+            </span>
+            <span class="floot-right">
+                <ul>
+                    <li>Hỗ trợ & phát triển bởi <strong>lIVA</strong> & <strong>TINH VÂN</strong></li>
+                    <li>Ghi rõ nguồn: www.hn-ams.edu.vn hi trích thông tin từ website này</li>
+                </ul>
+            </span>
+            <span class="img">
+                <img src="img/gotop-vn.png" height="100px">
+            </span>
+        </footer>
+    </div>
+</body>
+
+</html>

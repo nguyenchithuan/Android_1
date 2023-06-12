@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Họ và tên"
+        android:textColor="#FF5722"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập họ tên"
+        android:inputType="textPersonName"
+        android:padding="6dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Số điện thoại"
+        android:textColor="#FF5722"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etSdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập số đt"
+        android:inputType="phone"
+        android:padding="6dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="Ghi chú"
+        android:textColor="#FF5722"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etGhiChu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập ghi chú"
+        android:inputType="textPersonName"
+        android:padding="6dp" />
+
+    <Button
+        android:id="@+id/btnLuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="luuOnclick"
+        android:layout_gravity="center"
+        android:backgroundTint="#FF5722"
+        android:text="Lưu" />
+
+</LinearLayout>

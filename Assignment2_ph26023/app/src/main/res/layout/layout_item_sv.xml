@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvSttSv"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="STT"
+        android:textColor="#FF5722"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:padding="3dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/avatar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvMaLopSv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="5dp"
+                android:text="Mã lớp"
+                android:textColor="#FF5722" />
+
+            <TextView
+                android:id="@+id/tvNgaySinhSv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:padding="5dp"
+                android:textColor="#FF5722"
+                tools:text="Ngày sinh" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTenSv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="5dp"
+                android:text="Tên sinh viên"
+                android:textColor="#FF5722" />
+
+            <TextView
+                android:id="@+id/tvGioiTinhSv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:padding="5dp"
+                android:text="Giới tính"
+                android:textColor="#FF5722" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvSdtSv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="5dp"
+                android:text="Sđt"
+                android:textColor="#FF5722" />
+
+            <TextView
+                android:id="@+id/tvGoiDien"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:padding="5dp"
+                android:text="Gọi điện"
+                android:textColor="#FF5722" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTenVatTu"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Tên vật tư"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvGia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giá"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvSua"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Sửa"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvXoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:text="Xóa"
+        android:textSize="20dp" />
+
+</LinearLayout>
